@@ -79,7 +79,7 @@ const Index = () => {
                   and are ISO 12312-2 compliant and CE certified.
                 </span>
 
-                <span>Don't risk buying unsafe glasses on Amazon.</span>
+                <span>Don&apos;t risk buying unsafe glasses on Amazon.</span>
               </div>
 
               <div className={'flex items-center space-x-4'}>
@@ -196,7 +196,7 @@ const Index = () => {
             <div className={'flex flex-col justify-between space-y-2'}>
               <Heading type={3}>
                 <p className={'text-gray-800 dark:text-white'}>
-                  Don't miss the event of the century.
+                  Don&apos;t miss the event of the century.
                 </p>
               </Heading>
 
