@@ -11,7 +11,7 @@ export const LIGHT_THEME_CLASSNAME = `light`;
 export const SYSTEM_THEME_CLASSNAME = 'system';
 
 export function getStoredTheme() {
-  return parseCookies(null)['theme'] ?? 'dark';
+  return parseCookies(null)['theme'] ?? 'dark'; 
 }
 
 export function setTheme(theme: string | null) {
