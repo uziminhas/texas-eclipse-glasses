@@ -141,7 +141,7 @@ function UiStateProvider(
 ) {
   const ui = props.state;
   const isCollapsed = ui?.sidebarState === 'collapsed';
-  const currentTheme = ui?.theme ?? null;
+  const currentTheme = ui?.theme ?? 'dark';
 
   const [collapsed, setCollapsed] = useCollapsible(isCollapsed);
   const [theme, setTheme] = useState(currentTheme);
