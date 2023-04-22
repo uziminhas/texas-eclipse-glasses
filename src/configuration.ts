@@ -4,11 +4,11 @@ import { GoogleAuthProvider } from 'firebase/auth';
 const configuration = {
   site: {
     name: 'Texas Eclipse Glasses',
-    description: 'Your SaaS Description',
+    description: 'Certified eclipse glasses to view the 2023 and 2024 solar eclipse | Made in America.',
     themeColor: '#ffffff',
     themeColorDark: '#0a0a0a',
     siteUrl: process.env.NEXT_PUBLIC_SITE_URL as string,
-    siteName: 'NewSpace Ventures LLC',
+    siteName: 'Texas Eclipse Glasses',
     twitterHandle: '',
     githubHandle: '',
     language: 'en',
