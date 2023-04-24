@@ -4,7 +4,7 @@ export default class MyDocument extends Document {
   render() {
     return (
       <Html className={this.getTheme()}>
-        <Head />
+        <Head>
           <meta name="title" content="Texas Eclipse Glasses" />
           <meta name="description" content="Certified eclipse glasses to view the 2023 and 2024 solar eclipse | Made in America." />
           <meta property="og:site_name" content="texaseclipseglasses.com" />
@@ -27,6 +27,7 @@ export default class MyDocument extends Document {
             property="twitter:image"
             content="https://texaseclipseglasses.com/preview.png"
           />
+        </Head>
         <body>
           <Main />
           <NextScript />
