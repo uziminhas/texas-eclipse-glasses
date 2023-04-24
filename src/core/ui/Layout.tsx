@@ -87,6 +87,18 @@ const Layout: React.FCC = ({ children }) => {
         <meta property="twitter:card" content="summary_large_image" />
 
         <meta
+          property="twitter:description"
+          content="Certified eclipse glasses to view the 2023 and 2024 solar eclipse | Made in America."
+        />
+        <meta
+          property="og:image"
+          content="https://texaseclipseglasses.com/preview.png"
+        />
+        <meta
+          property="twitter:image"
+          content="https://texaseclipseglasses.com/preview.png"
+        />
+        <meta
           property="twitter:creator"
           content={configuration.site.twitterHandle}
         />
