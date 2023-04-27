@@ -19,8 +19,8 @@ import IconButton from '~/core/ui/IconButton';
 
 const DATA = [
   {
-    question: `Do you offer a free trial?`,
-    answer: `Yes, we offer a 14-day free trial. You can cancel at any time during the trial period and you won't be charged.`,
+    question: `Can I safely watch the solar eclipse with these glasses?`,
+    answer: `Yes! Our glasses are manufactured in the USA by American Paper Optics and meet the ISO 12312-2 international safety standard. Filters that are ISO 12312-2 compliant not only reduce visible sunlight to safe and comfortable levels but also block solar UV and IR radiation.`,
   },
   {
     question: `Can I cancel my subscription?`,
