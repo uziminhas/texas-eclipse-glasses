@@ -142,7 +142,7 @@ const configuration = {
             stripePriceId: '',
             trialPeriodDays: 0,
             label: `Contact us`,
-            href: `/contact`,
+            href: 'mailto:uzair@newspaceventures.com',
           },
         ],
       },

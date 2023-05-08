@@ -61,7 +61,7 @@ function Footer() {
                     <Link href={'/blog'}>Blog</Link>
                   </FooterLink>
                   <FooterLink>
-                    <Link href={'/contact'}>Contact</Link>
+                    <a href="mailto:uzair@newspaceventures.com">Contact</a>
                   </FooterLink>
                 </FooterSectionList>
               </div>
